@@ -11,7 +11,7 @@ admin = name;
 //Example to use a variable
 alert(admin);
 
-//Note tou can assign a value directly in the declaration line
+//Note you can assign a value directly in the declaration line
 let intValue = 1;
 
 /*
