@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Logical operator : OR</title>
+    </head>
+    <body>
+        <script>
+            "use-strict";
+            //Assuming it's always a number
+            let age = prompt("How old are you?", "");
+
+            if (!(age >= 14 && age <= 90))
+                alert("not under 14 and 90!");
+            else
+                alert("You're under 14 and 90!");
+            /*
+            //Same thing written differently
+            if (age < 14 || age > 90)
+                alert("You're not under 14 and 90!");
+            else
+                alert("You're under 14 and 90!");
+            */         
+        </script>
+    </body>
+</html>
