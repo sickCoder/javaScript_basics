@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Logical operator : nullish coalescing operator</title>
+    </head>
+    <body>
+        <script>
+            "use-strict";
+            /*
+            ?? operator returns the first defined operand or
+            the last operand if every operands are null or undefined
+
+            Here used to put a default value ("anonymous") into userName
+            */
+           let userName = null ?? undefined ?? "anonymous";
+        </script>
+    </body>
+</html>
