@@ -15,8 +15,16 @@
             parameter2 = "default value" means it will take the 
             "default value" if nothing is specified. the default value can
             be anything (like a function result or another expression).
+
+            The arguments given as parameters are copied into local variables.
             */
             function name(parameter1, parameter2 = "default value") {
+                
+                /*
+                Local variable means it can't be used outside of the function.
+                The function can use global variables.
+                */
+                let localVariable;
                 /*
                 Functions can retrun a value with the key word return
                 If there is no expression after return, then the function
