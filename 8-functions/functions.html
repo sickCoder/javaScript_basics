@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript functions</title>
+    </head>
+    <body>
+        <script>
+            /*
+            Function declaration
+            The number of parameters can be 0 or more
+            If we don't put any argument as a parameter, 
+            then it will be undefined.
+
+            parameter2 = "default value" means it will take the 
+            "default value" if nothing is specified. the default value can
+            be anything (like a function result or another expression).
+            */
+            function name(parameter1, parameter2 = "default value") {
+                /*
+                Functions can retrun a value with the key word return
+                If there is no expression after return, then the function
+                will return undefined.
+                A return immediatly stops the function process. 
+                */
+               return parameter1 == parameter2;
+
+            }
+            //If a function is empty, it will return undefined automaticaly.
+            function empty() {
+                
+            }
+            //return on more tha one line.
+            function complexReturn() {
+                return (
+                    /*
+                    complex expression
+                    on many lines.
+                    */
+                );
+            }
+            /*
+            The name of function should have a meaning:
+            show... should show something
+            get... should return a value
+            create... should create something (and usualy returning it)
+            check, is... should evaluate something and return the result (usualy true/false)
+            etc...
+            */
+        </script>
+    </body>
+</html>
