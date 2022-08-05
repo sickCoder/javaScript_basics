@@ -27,5 +27,5 @@ welcome();
 //On multi lines
 let sum2 = (a, b) => {
     let result = a + b;
-    return result; //To have a return is an obligation
+    return result; //return is an obligation
 }; //Don't forget the semicolon
