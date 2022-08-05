@@ -34,3 +34,10 @@ let sayHiExpression = function () {
     alert('Hello!');
 };
 sayHiCopied = sayHiExpression;
+sayHiCopied();
+
+/*
+In strict mode, a declared function is availiable everywhere in its current 
+instructions block.
+A function Expression is availiable after the execution of the function expression.
+*/
