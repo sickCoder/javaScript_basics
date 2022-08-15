@@ -1,13 +1,14 @@
 "use-strict";
 
 function sumInput() {
+
     let numbers = [];
 
     do {
 
         let value = prompt("Enter a number:", 0);
         
-        if (!isFinite(number) || value == "" || value == null) {
+        if (!isFinite(value) || value == "" || value == null) {
             break;
         }
 
