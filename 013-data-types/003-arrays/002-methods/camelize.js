@@ -5,9 +5,9 @@ function camelize(str) {
 
     words.forEach(function(word, index) {
         if (index == 0) {
-            return word;
+            return;
         }
-        return word[0].toUpperCase() + word.slice(1);
+        words[index] = word[0].toUpperCase() + word.slice(1);
     });
 
     return words.join('');
