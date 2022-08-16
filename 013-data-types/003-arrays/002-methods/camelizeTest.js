@@ -1,6 +1,6 @@
 "use-strict";
 
-describe(camelize, function() {
+describe("camelize", function() {
     
     it("camel case a hypen formatted string", function() {
         let str = "background-color";
