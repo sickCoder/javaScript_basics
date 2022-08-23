@@ -1,4 +1,5 @@
 "use-strict";
+
 let list = {
     value: 1,
     next: {
@@ -13,19 +14,19 @@ let list = {
     }
 };
 
-recursivePrintList(list);
-iterativePrintList(list);
+recursivePrintReverseList(list);
+iterativePrintReverseList(list);
 
-function recursivePrintList(list) {
+function recursivePrintReverseList(list) {
     
     if (list.next) {
-        recursivePrintList(list.next);
+        recursivePrintReverseList(list.next);
     }
 
     alert(list.value);
 }
 
-function iterativePrintList(list) {
+function iterativePrintReverseList(list) {
     let currentList = list;
     let values = [];
 
